@@ -1,4 +1,4 @@
-<?php if(empty($_SESSION['user'])){header('Location: /'); die();}?>
+<?php if(empty($_SESSION['user'])){header('Location: /'); exit();}?>
 <!doctype html>
 <html lang="en">
    <head>

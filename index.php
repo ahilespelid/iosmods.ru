@@ -1,4 +1,4 @@
-<?php namespace SiteIosmods; session_start(['cookie_lifetime' => 60,]);
+<?php namespace SiteIosmods; session_start(['cookie_lifetime' => 3660,]);
 if(!function_exists('pa')){function pa($a=[],$br=0,$tag='pre'):bool{$tr = debug_backtrace(); $fi = ''; $sbr='';
     while($br){$sbr.='<br>';$br--;} 
     echo $sbr.(!empty($tr[0]) && is_array($tr[0]) ? $fi = $tr[0]['file'].':'.$tr[0]['line'] : '').'<br><'.$tag.'>'; print_r($a); echo'</'.$tag.'>';return true;
